@@ -2,8 +2,8 @@ from os import environ
 import re
 import json
 
-from app import app
-
+from server.app import app
+#this dumb thing makes a duplicate db outside of /server/ nearly gauranteeing itll break.
 
 class TestApp:
     '''Flask application in flask_app.py'''
